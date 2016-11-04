@@ -4,6 +4,8 @@
 
 Watson combines a number of cognitive techniques to help you build and train a bot - defining intents and entities and crafting dialog to simulate conversation. The system can then be further refined with supplementary technologies to make the system more human-like or to give it a higher chance of returning the right answer. Watson Conversation allows you to deploy a range of bots via many channels, from simple, narrowly focused Bots to much more sophisticated, full-blown virtual agents across mobile devices, messaging platforms like Slack, or even through a physical robot.
 
+https://www.ibm.com/watson/developercloud/conversation.html
+
 ## Suggested uses
 
 * Add a chatbot to your website that automatically responds to customers’ most frequently asked questions.
@@ -12,6 +14,22 @@ Watson combines a number of cognitive techniques to help you build and train a b
 
 ## Overview
 With the IBM Watson™ Conversation service, you can create an application that understands natural-language input and uses machine learning to respond to customers in a way that simulates a conversation between humans. Your application can be an automated customer-service agent that is available from your website, a bot that communicates by using a chat service or social-media channel, a mobile app, or anything else that uses natural language to communicate with users. The Conversation service provides an easy-to-use graphical environment for creating natural conversation flows between your application and your users.
+
+## Workspace
+Creating workspaces
+The Conversation service natural-language processing happens inside a workspace, which is a container for all of the artifacts that define the conversation flow for a particular application.
+Workspace overview
+A single Conversation service instance can contain multiple workspaces. A workspace contains the following types of artifacts:
+
+## Intents
+An intent represent's the purpose of a user's input, such as a question about business locations or a bill payment. You define an intent for each type of user request you want your application to support. To train the workspace to recognize your intents, you supply lots of examples of user input and indicate which intents they map to. In the user interface, the name of an intent is always prefixed with the "#character."
+
+## Entities
+An entity represents a term or object that is relevant to your intents and that provides a specific context for an intent. For example, an entity might represent a city where the user wants to find a business location, or the amount of a bill payment. To train the workspace to recognize your entities, you list the possible values for each entity and synonyms that users might enter. In the user interface, the name of an entity is always prefixed with the @ character.
+
+## Dialog
+A dialog is a branching conversation flow that defines how your application responds when it recognizes the defined intents and entities. You use the dialog builder to create conversations with users, providing responses based on the intents and entities that you recognize in their input.
+As you add information, the workspace automatically trains itself on the latest changes. You do not have to take any action to initiate the training.
 
 ## Architecture
 
@@ -30,6 +48,10 @@ https://youtu.be/1rTl1WEbg5U
 
 ## Demo
 https://conversation-demo.mybluemix.net/
+
+##References
+(i)  Overview page: https://www.ibm.com/watson/developercloud/conversation.html
+(ii) Official Developer Documentation: https://www.ibm.com/watson/developercloud/conversation.html
 
 ## Lab 1
 https://medium.com/ibm-watson-developer-cloud/create-your-slack-bot-with-conversation-api-node-red-a5bf82aad24d#.9tqexd8bu
