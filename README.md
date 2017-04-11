@@ -50,8 +50,8 @@ https://youtu.be/1rTl1WEbg5U
 https://conversation-demo.mybluemix.net/
 
 ## References
-(i)  Overview page: https://www.ibm.com/watson/developercloud/conversation.html
-(ii) Official Developer Documentation: https://www.ibm.com/watson/developercloud/conversation.html
+* (i)  Overview page: https://www.ibm.com/watson/developercloud/conversation.html
+* (ii) Official Developer Documentation: https://www.ibm.com/watson/developercloud/conversation.html
 
 ## Lab 1
 https://medium.com/ibm-watson-developer-cloud/create-your-slack-bot-with-conversation-api-node-red-a5bf82aad24d#.9tqexd8bu
