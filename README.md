@@ -49,7 +49,7 @@ https://youtu.be/1rTl1WEbg5U
 ## Demo
 https://conversation-demo.mybluemix.net/
 
-##References
+## References
 (i)  Overview page: https://www.ibm.com/watson/developercloud/conversation.html
 (ii) Official Developer Documentation: https://www.ibm.com/watson/developercloud/conversation.html
 
